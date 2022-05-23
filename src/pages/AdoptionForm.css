@@ -1,0 +1,118 @@
+.big-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1250px;
+}
+
+.back-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.form-title {
+    font-size: 48px;
+    font-family: 'Oswald';
+}
+
+.address-title {
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.namesform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Oswald';
+}
+
+.namesform input {
+    width: 600px;
+    box-shadow: 5px 5px 9px #0f0f0f;
+}
+
+span {
+    color: red;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.line1 input {
+    width: 1250px;
+    font-family: 'Oswald';
+    box-shadow: 5px 5px 9px #0f0f0f;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.line2 input {
+    width: 350px;
+    font-family: 'Oswald';
+    box-shadow: 5px 5px 9px #0f0f0f;
+}
+
+.line2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    margin-bottom: 50px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.phone-email-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-title {
+    align-self: flex-start;
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

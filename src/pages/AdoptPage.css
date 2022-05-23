@@ -1,0 +1,195 @@
+.adopt-container {
+    margin: 20px 100px 50px 100px;
+}
+
+.backbutton-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    font-family: 'Oswald';
+}
+
+.back-button {
+    font-weight: 800;
+    font-size: 28px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Oswald';
+    font-style: normal;
+    text-decoration: none;
+}
+
+.adopt-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.form-one {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+
+.form-one-container {
+    display: flex;
+}
+
+.form-two {
+    display: flex;
+}
+
+.form-two-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+
+.filter-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.radio-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    align-content: flex-start;
+    font-size: 28px;
+}
+
+.back-button-container {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin-right: 10px;
+    height: 29px;
+    width: 22px;
+}
+
+.sortby-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.matches-sort-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-family: 'Oswald';
+}
+
+.dropdownisti {
+    width: 260px;
+    margin-right: 57px;
+    text-align: left;
+    margin-bottom: 43px;
+    font-family: 'Oswald';
+}
+
+input[type=radio] {
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    width: 29px;
+    height: 29px;
+    font-family: 'Oswald';
+}
+
+input[type=radio]:checked {
+    background: black no-repeat center center;
+    background-size: 3px 3px;
+}
+
+input[type=radio]:focus {
+    outline-color: transparent;
+}
+
+.filter-button {
+    width: 371px;
+    height: 53px;
+    font-size: 24px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(8, 59, 8);
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    background-color: green;
+    margin-bottom: 75px;
+    font-family: 'Oswald';
+}
+
+.sortby-container span {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 9px;
+    font-family: 'Oswald';
+    color: black;
+}
+
+.dropdown-sort {
+    width: 170px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Oswald';
+}
+
+.matches-text {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.card-title {
+    color: black;
+    text-decoration: none;
+}
+
+.card-text {
+    text-decoration: none;
+    color: black;
+}

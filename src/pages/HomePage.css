@@ -1,0 +1,172 @@
+.homepage {
+    background-image: url("../images/background-image.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.main {
+    height: 60%;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.main-content {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+.main-text-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text-container {
+    display: none;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.main-button-donate {
+    width: 155px;
+    height: 59px;
+    font-size: 24px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Oswald';
+}
+
+.main-button-adopt {
+    width: 155px;
+    height: 59px;
+    font-size: 24px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(8, 59, 8);
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    background-color: green;
+    font-family: 'Oswald';
+}
+
+@media screen and (max-width: 500px) {
+
+    #page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        background-image: url("../images/background-image.png");
+        width: 100%;
+        display: flex;
+        height: auto;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        top: 40%;
+        right: 50%;
+    }
+
+    .main-button-donate {
+        width: 155px;
+        height: 59px;
+        font-size: 24px;
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        cursor: pointer;
+        overflow: hidden;
+        background-color: white;
+        font-family: 'Oswald';
+        margin-right: 20px;
+    }
+
+    .main-content {
+        position: relative;
+        top: 30%;
+        left: 40%;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-button-adopt {
+        width: 155px;
+        height: 59px;
+        font-size: 24px;
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: 2px solid rgb(8, 59, 8);
+        cursor: pointer;
+        overflow: hidden;
+        color: white;
+        background-color: green;
+        font-family: 'Oswald';
+    }
+
+    .white-container {
+        width: 500px;
+        height: 550px;
+        background-color: white;
+        position: relative;
+    }
+
+    .main-text {
+        color: black;
+        font-size: 20px;
+        font-family: 'Oswald';
+        font-size: 30px;
+    }
+
+    .main-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+
+    .main-text-container1 {
+        display: none;
+    }
+}
